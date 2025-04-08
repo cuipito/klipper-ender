@@ -1,0 +1,32 @@
+accessControl:
+  userfile: /octoprint/octoprint/users.yaml
+api:
+  key: 3IrBJ-NbqV3uv46vCHngvsGS5tvfL6iyvJAk6cYgnV4
+plugins:
+  announcements:
+    _config_version: 1
+  classicwebcam:
+    _config_version: 1
+    snapshot: http://webcam:8080/snapshot
+    stream: /webcam/stream
+  discovery:
+    upnpUuid: b218da12-15be-4e98-ac45-64b4311473ea
+  errortracking:
+    unique_id: 13c794df-f13d-4cfa-9b90-6831d3df222b
+  gcodeviewer:
+    _config_version: 1
+  softwareupdate:
+    _config_version: 9
+  tracking:
+    unique_id: f1690ff5-fa65-4ff6-a8bf-69a20503ece8
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+serial:
+  additionalPorts:
+  - /opt/printer_data/run/klipper.tty
+  autoconnect: true
+  port: /opt/printer_data/run/klipper.tty
+server:
+  secretKey: ce78aa5c587a0b9250b364722d438437d26fe803b0f71de0464ae61549f1f0c4
